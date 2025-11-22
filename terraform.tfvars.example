@@ -1,0 +1,32 @@
+# Example terraform.tfvars for dev/aws
+region = "us-east-1"
+instance_type = "t3.medium"
+key_name = "sample-key"
+public_key = "" # optional, set SSH public key to have Terraform create key pair
+
+# SQL Server passwords - replace with secure values
+sql_sa_password = "P@ssw0rd123!"
+sql_adm_s_password = "AdmS@123!"
+sql_dev_r_password = "DevR@123!"
+sql_dev_w_password = "DevW@123!"
+
+# Bitbucket (private repo) - replace with your repo and credentials or switch to deploy-key
+bitbucket_repo_url = "https://bitbucket.org/yourteam/yourrepo.git"
+bitbucket_user = "bb_user"
+bitbucket_app_password = "bb_app_password"
+# Example terraform.tfvars for dev/aws
+region = "us-east-1"
+instance_type = "t3.medium"
+key_name = "sample-key"
+public_key = "" # optional, set SSH public key to have Terraform create key pair
+
+# SQL Server passwords - replace with secure values
+sql_sa_password = "P@ssw0rd123!"
+sql_adm_s_password = "AdmS@123!"
+sql_dev_r_password = "DevR@123!"
+sql_dev_w_password = "DevW@123!"
+
+# Bitbucket (private repo) - replace with your repo and credentials or switch to deploy-key
+bitbucket_repo_url = "https://bitbucket.org/yourteam/yourrepo.git"
+bitbucket_user = "bb_user"
+bitbucket_app_password = "bb_app_password"
